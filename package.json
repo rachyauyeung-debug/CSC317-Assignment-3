@@ -1,0 +1,13 @@
+{
+    "name": "rhythm-rush",
+    "version": "1.0.0",
+    "description": "CSC317 Assignment 3 Rhythm Game",
+    "main": "server.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.21.2"
+    }
+}

@@ -1,0 +1,28 @@
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rhythm Rush - CSC317</title>  
+   </head>
+   <link rel="stylesheet" href="style.css">
+    <script src="game.js" defer></script>
+</head>
+<body>
+    <h1>Rhythm Rush</h1>
+    <p> Press the matching arrow keys when notes reach the target!</p>
+
+    <div id="stats">
+        <span id="round">Round: 1/7</span>
+        <span id="timer">Time: 30</span>
+        <span id="score">Score: 0</span>
+        <span id="mistakes">Bads: 0/3 | Misses: 0/5</span>
+    </div>
+
+    <canvas id="game" width="400" height="560"></canvas>
+
+    <h2 id="message">Ready to play?</h2>
+    <p id="instructions">Arrow keys or WASD | Escape to pause</p>
+    <button id="actionBtn">Start Game</button>
+</body>
+</html>
